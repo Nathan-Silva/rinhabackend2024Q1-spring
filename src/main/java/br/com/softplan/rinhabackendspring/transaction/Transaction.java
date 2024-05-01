@@ -20,7 +20,6 @@ import java.time.LocalDateTime;
 public class Transaction {
 
     @Id
-
     Long id;
 
     @Column("customer_id")
